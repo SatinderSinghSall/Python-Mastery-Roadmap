@@ -30,3 +30,10 @@ print(str2[:])
 
 str3 = "Python"
 print(str3[-4:-2])
+
+# String Formating:
+a = 5
+b = 10
+sumRes = a + b
+print("Sum is: {}".format(sumRes))
+print(f"Sum is: {sumRes}")
