@@ -25,3 +25,5 @@ print(student2.year_of_admission)
 
 print(student.subject, student.university, student.year_of_admission)
 print(student2.subject, student2.university, student2.year_of_admission)
+
+# Attributes & Methods: OOP
