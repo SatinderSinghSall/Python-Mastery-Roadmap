@@ -72,3 +72,5 @@ print(f"Student Information: {student2.name}, {student2.year_of_admission}, {stu
 # Attributes & Methods: OOP
 # Constructor: init() method (to initialize the objects)
 # Types of Constructors
+
+# Attributes: Class & Instance
