@@ -69,8 +69,27 @@ print()
 print(f"Student Information: {student.name}, {student.year_of_admission}, {student.cgpa}, {student.subject}, {student.university}")
 print(f"Student Information: {student2.name}, {student2.year_of_admission}, {student2.cgpa}, {student2.subject}, {student2.university}")
 
+print()
+print()
+
 # Attributes & Methods: OOP
 # Constructor: init() method (to initialize the objects)
 # Types of Constructors
 
 # Attributes: Class & Instance
+class StudentClass:
+    university_name = "University" # Class Attributes
+    PI = 3.1
+
+    def __init__(self, name, cgpa):
+        self.name = name # Instance Attributes
+        self.cgpa = cgpa
+        self.PI = 3.14
+        print("Constructor called")
+
+std = StudentClass("Satinder Singh Sall", 8)
+print(std)
+print(std.name)
+print(std.cgpa)
+print(std.PI)
+print(StudentClass.PI)
