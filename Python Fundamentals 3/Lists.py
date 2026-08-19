@@ -28,3 +28,10 @@ print(nums)
 
 nums.sort()
 print(nums)
+
+# Loop in lists:
+for num in nums:
+    print(num)
+
+nums.clear()
+print(nums)
