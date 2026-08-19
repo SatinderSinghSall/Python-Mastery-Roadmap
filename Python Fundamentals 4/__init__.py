@@ -63,6 +63,12 @@ print()
 print(student.cgpa)
 print(student2.cgpa)
 
+print()
+print()
+
+print(f"Student Information: {student.name}, {student.year_of_admission}, {student.cgpa}, {student.subject}, {student.university}")
+print(f"Student Information: {student2.name}, {student2.year_of_admission}, {student2.cgpa}, {student2.subject}, {student2.university}")
+
 # Attributes & Methods: OOP
 # Constructor: init() method (to initialize the objects)
 # Types of Constructors
