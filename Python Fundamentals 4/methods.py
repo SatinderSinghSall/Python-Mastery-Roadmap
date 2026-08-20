@@ -1,0 +1,3 @@
+# Methods: Instance, Class & Static
+
+
